@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playing Game - Unblocked Arcade</title>
+    <style>
+        /* Make the game take up the entire browser window */
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background-color: #121214;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Top bar to allow users to navigate back home */
+        .back-bar {
+            background-color: #1a1a1e;
+            padding: 10px 20px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+        }
+
+        .back-btn {
+            color: #ffffff;
+            text-decoration: none;
+            background-color: #ff4757;
+            padding: 5px 15px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .back-btn:hover {
+            background-color: #ff6b81;
+        }
+
+        /* Fullscreen iframe container */
+        iframe {
+            width: 100%;
+            height: calc(100% - 60px); /* Subtracts the back-bar height */
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="back-bar">
+        <a href="index.html" class="back-btn">← Back to Arcade</a>
+    </div>
+
+    <!-- REPLACE THE URL IN THE SRC BELOW WITH YOUR GAME LINK -->
+    <iframe src="https://github.io" allowfullscreen></iframe>
+
+</body>
+</html>
